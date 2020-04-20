@@ -1,4 +1,4 @@
-FROM openjdk:8u222-slim
+FROM openjdk:12-alpine
 COPY App.java .
 RUN javac App.java
 CMD ["java","App"]
